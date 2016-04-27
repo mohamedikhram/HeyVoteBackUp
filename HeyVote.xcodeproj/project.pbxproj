@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE402A81CD045E7007FB39E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE402A71CD045E7007FB39E /* main.m */; };
+		DEE402AB1CD045E7007FB39E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE402AA1CD045E7007FB39E /* AppDelegate.m */; };
+		DEE402AE1CD045E7007FB39E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE402AD1CD045E7007FB39E /* ViewController.m */; };
+		DEE402B11CD045E7007FB39E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE402AF1CD045E7007FB39E /* Main.storyboard */; };
+		DEE402B31CD045E7007FB39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE402B21CD045E7007FB39E /* Assets.xcassets */; };
+		DEE402B61CD045E7007FB39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE402B41CD045E7007FB39E /* LaunchScreen.storyboard */; };
+		DEE402C11CD045E7007FB39E /* HeyVoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE402C01CD045E7007FB39E /* HeyVoteTests.m */; };
+		DEE402CC1CD045E7007FB39E /* HeyVoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE402CB1CD045E7007FB39E /* HeyVoteUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE402BD1CD045E7007FB39E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE4029B1CD045E6007FB39E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE402A21CD045E6007FB39E;
+			remoteInfo = HeyVote;
+		};
+		DEE402C81CD045E7007FB39E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE4029B1CD045E6007FB39E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE402A21CD045E6007FB39E;
+			remoteInfo = HeyVote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEE402A31CD045E6007FB39E /* HeyVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE402A71CD045E7007FB39E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEE402A91CD045E7007FB39E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEE402AA1CD045E7007FB39E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEE402AC1CD045E7007FB39E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEE402AD1CD045E7007FB39E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEE402B01CD045E7007FB39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEE402B21CD045E7007FB39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEE402B51CD045E7007FB39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEE402B71CD045E7007FB39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE402BC1CD045E7007FB39E /* HeyVoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyVoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE402C01CD045E7007FB39E /* HeyVoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeyVoteTests.m; sourceTree = "<group>"; };
+		DEE402C21CD045E7007FB39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE402C71CD045E7007FB39E /* HeyVoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyVoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE402CB1CD045E7007FB39E /* HeyVoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeyVoteUITests.m; sourceTree = "<group>"; };
+		DEE402CD1CD045E7007FB39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE402A01CD045E6007FB39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE402B91CD045E7007FB39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE402C41CD045E7007FB39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEE4029A1CD045E6007FB39E = {
+			isa = PBXGroup;
+			children = (
+				DEE402A51CD045E6007FB39E /* HeyVote */,
+				DEE402BF1CD045E7007FB39E /* HeyVoteTests */,
+				DEE402CA1CD045E7007FB39E /* HeyVoteUITests */,
+				DEE402A41CD045E6007FB39E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE402A41CD045E6007FB39E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE402A31CD045E6007FB39E /* HeyVote.app */,
+				DEE402BC1CD045E7007FB39E /* HeyVoteTests.xctest */,
+				DEE402C71CD045E7007FB39E /* HeyVoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE402A51CD045E6007FB39E /* HeyVote */ = {
+			isa = PBXGroup;
+			children = (
+				DEE402A91CD045E7007FB39E /* AppDelegate.h */,
+				DEE402AA1CD045E7007FB39E /* AppDelegate.m */,
+				DEE402AC1CD045E7007FB39E /* ViewController.h */,
+				DEE402AD1CD045E7007FB39E /* ViewController.m */,
+				DEE402AF1CD045E7007FB39E /* Main.storyboard */,
+				DEE402B21CD045E7007FB39E /* Assets.xcassets */,
+				DEE402B41CD045E7007FB39E /* LaunchScreen.storyboard */,
+				DEE402B71CD045E7007FB39E /* Info.plist */,
+				DEE402A61CD045E6007FB39E /* Supporting Files */,
+			);
+			path = HeyVote;
+			sourceTree = "<group>";
+		};
+		DEE402A61CD045E6007FB39E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE402A71CD045E7007FB39E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEE402BF1CD045E7007FB39E /* HeyVoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE402C01CD045E7007FB39E /* HeyVoteTests.m */,
+				DEE402C21CD045E7007FB39E /* Info.plist */,
+			);
+			path = HeyVoteTests;
+			sourceTree = "<group>";
+		};
+		DEE402CA1CD045E7007FB39E /* HeyVoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE402CB1CD045E7007FB39E /* HeyVoteUITests.m */,
+				DEE402CD1CD045E7007FB39E /* Info.plist */,
+			);
+			path = HeyVoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE402A21CD045E6007FB39E /* HeyVote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE402D01CD045E7007FB39E /* Build configuration list for PBXNativeTarget "HeyVote" */;
+			buildPhases = (
+				DEE4029F1CD045E6007FB39E /* Sources */,
+				DEE402A01CD045E6007FB39E /* Frameworks */,
+				DEE402A11CD045E6007FB39E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeyVote;
+			productName = HeyVote;
+			productReference = DEE402A31CD045E6007FB39E /* HeyVote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE402BB1CD045E7007FB39E /* HeyVoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE402D31CD045E7007FB39E /* Build configuration list for PBXNativeTarget "HeyVoteTests" */;
+			buildPhases = (
+				DEE402B81CD045E7007FB39E /* Sources */,
+				DEE402B91CD045E7007FB39E /* Frameworks */,
+				DEE402BA1CD045E7007FB39E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE402BE1CD045E7007FB39E /* PBXTargetDependency */,
+			);
+			name = HeyVoteTests;
+			productName = HeyVoteTests;
+			productReference = DEE402BC1CD045E7007FB39E /* HeyVoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEE402C61CD045E7007FB39E /* HeyVoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE402D61CD045E7007FB39E /* Build configuration list for PBXNativeTarget "HeyVoteUITests" */;
+			buildPhases = (
+				DEE402C31CD045E7007FB39E /* Sources */,
+				DEE402C41CD045E7007FB39E /* Frameworks */,
+				DEE402C51CD045E7007FB39E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE402C91CD045E7007FB39E /* PBXTargetDependency */,
+			);
+			name = HeyVoteUITests;
+			productName = HeyVoteUITests;
+			productReference = DEE402C71CD045E7007FB39E /* HeyVoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE4029B1CD045E6007FB39E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AppCandles;
+				TargetAttributes = {
+					DEE402A21CD045E6007FB39E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DEE402BB1CD045E7007FB39E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DEE402A21CD045E6007FB39E;
+					};
+					DEE402C61CD045E7007FB39E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DEE402A21CD045E6007FB39E;
+					};
+				};
+			};
+			buildConfigurationList = DEE4029E1CD045E6007FB39E /* Build configuration list for PBXProject "HeyVote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEE4029A1CD045E6007FB39E;
+			productRefGroup = DEE402A41CD045E6007FB39E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE402A21CD045E6007FB39E /* HeyVote */,
+				DEE402BB1CD045E7007FB39E /* HeyVoteTests */,
+				DEE402C61CD045E7007FB39E /* HeyVoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE402A11CD045E6007FB39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE402B61CD045E7007FB39E /* LaunchScreen.storyboard in Resources */,
+				DEE402B31CD045E7007FB39E /* Assets.xcassets in Resources */,
+				DEE402B11CD045E7007FB39E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE402BA1CD045E7007FB39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE402C51CD045E7007FB39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE4029F1CD045E6007FB39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE402AE1CD045E7007FB39E /* ViewController.m in Sources */,
+				DEE402AB1CD045E7007FB39E /* AppDelegate.m in Sources */,
+				DEE402A81CD045E7007FB39E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE402B81CD045E7007FB39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE402C11CD045E7007FB39E /* HeyVoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE402C31CD045E7007FB39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE402CC1CD045E7007FB39E /* HeyVoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE402BE1CD045E7007FB39E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE402A21CD045E6007FB39E /* HeyVote */;
+			targetProxy = DEE402BD1CD045E7007FB39E /* PBXContainerItemProxy */;
+		};
+		DEE402C91CD045E7007FB39E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE402A21CD045E6007FB39E /* HeyVote */;
+			targetProxy = DEE402C81CD045E7007FB39E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEE402AF1CD045E7007FB39E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE402B01CD045E7007FB39E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEE402B41CD045E7007FB39E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE402B51CD045E7007FB39E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEE402CE1CD045E7007FB39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEE402CF1CD045E7007FB39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEE402D11CD045E7007FB39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeyVote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appcandles.HeyVote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEE402D21CD045E7007FB39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeyVote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appcandles.HeyVote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEE402D41CD045E7007FB39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeyVoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appcandles.HeyVoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeyVote.app/HeyVote";
+			};
+			name = Debug;
+		};
+		DEE402D51CD045E7007FB39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeyVoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appcandles.HeyVoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeyVote.app/HeyVote";
+			};
+			name = Release;
+		};
+		DEE402D71CD045E7007FB39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeyVoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appcandles.HeyVoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeyVote;
+			};
+			name = Debug;
+		};
+		DEE402D81CD045E7007FB39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeyVoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appcandles.HeyVoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeyVote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE4029E1CD045E6007FB39E /* Build configuration list for PBXProject "HeyVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE402CE1CD045E7007FB39E /* Debug */,
+				DEE402CF1CD045E7007FB39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE402D01CD045E7007FB39E /* Build configuration list for PBXNativeTarget "HeyVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE402D11CD045E7007FB39E /* Debug */,
+				DEE402D21CD045E7007FB39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEE402D31CD045E7007FB39E /* Build configuration list for PBXNativeTarget "HeyVoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE402D41CD045E7007FB39E /* Debug */,
+				DEE402D51CD045E7007FB39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEE402D61CD045E7007FB39E /* Build configuration list for PBXNativeTarget "HeyVoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE402D71CD045E7007FB39E /* Debug */,
+				DEE402D81CD045E7007FB39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE4029B1CD045E6007FB39E /* Project object */;
+}
